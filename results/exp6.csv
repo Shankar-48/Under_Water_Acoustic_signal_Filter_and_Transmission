@@ -1,0 +1,4 @@
+Noise level,Input SNR (dB),Baseline clip SNR (est.),SNR after noise,After Kalman,After LMS,After Wiener,Final (Butterworth),Improvement (dB),Std of final (dB),Trials
+Low,15.0,15.7,14.99,15.19,15.08,14.96,14.97,-0.02,0.05,5
+Medium,5.0,15.7,4.99,6.26,8.42,7.41,7.43,2.44,0.09,5
+High,-5.0,15.7,-5.01,-0.48,0.1,-0.36,-0.4,4.61,0.02,5

@@ -1,0 +1,6 @@
+class,precision,recall,f1-score,support
+Ambient,1.0,1.0,1.0,8
+Biological,1.0,1.0,1.0,2
+Communication,1.0,1.0,1.0,2
+Impulsive,1.0,1.0,1.0,12
+Vessel,1.0,1.0,1.0,8

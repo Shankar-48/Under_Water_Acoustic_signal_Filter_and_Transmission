@@ -1,0 +1,9 @@
+# Core (needed to run the app and all tests except the UI/Plotly ones)
+streamlit>=1.32
+plotly>=5.18
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+scikit-learn>=1.3     # trained classifier + metrics (the heuristic baseline needs only NumPy/SciPy)
+joblib>=1.3           # saving/loading the optional trained model
+matplotlib>=3.7       # PNG graphs from the experiments

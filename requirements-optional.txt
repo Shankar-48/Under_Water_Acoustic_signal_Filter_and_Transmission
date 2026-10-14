@@ -1,0 +1,7 @@
+# Optional extras - the app runs without any of these.
+datasets>=2.18        # only for fetching OpenWhistle clips (Data Explorer button / scripts/download_openwhistle_samples.py)
+soundfile>=0.12       # reading FLAC/OGG and other formats besides WAV
+sounddevice>=0.4      # optional local-microphone recording (airborne sound, NOT a hydrophone)
+librosa>=0.10         # not required; features are implemented with SciPy
+tabulate>=0.9         # Markdown tables in experiments.run_experiments
+jupyter

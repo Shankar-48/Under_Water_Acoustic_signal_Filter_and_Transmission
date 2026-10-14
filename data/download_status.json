@@ -1,0 +1,52 @@
+{
+  "attempts": [
+    {
+      "time": "2026-10-13 08:11:59",
+      "source": "openwhistle",
+      "ok": false,
+      "message": "Install optional dependency: pip install datasets"
+    },
+    {
+      "time": "2026-10-13 08:13:11",
+      "source": "openwhistle",
+      "ok": false,
+      "message": "Install optional dependency: pip install datasets"
+    },
+    {
+      "time": "2026-10-13 13:16:49",
+      "source": "openwhistle",
+      "ok": false,
+      "message": "Install optional dependency: pip install datasets"
+    },
+    {
+      "time": "2026-10-13 13:18:11",
+      "source": "openwhistle",
+      "ok": false,
+      "message": "Install optional dependency: pip install datasets"
+    },
+    {
+      "time": "2026-10-13 18:55:56",
+      "source": "openwhistle",
+      "ok": false,
+      "message": "Install optional dependency: pip install datasets"
+    },
+    {
+      "time": "2026-10-13 18:56:50",
+      "source": "openwhistle",
+      "ok": false,
+      "message": "Install optional dependency: pip install datasets"
+    },
+    {
+      "time": "2026-10-14 10:18:24",
+      "source": "openwhistle",
+      "ok": true,
+      "message": "5 whistle + 2 non-whistle clips"
+    },
+    {
+      "time": "2026-10-14 10:22:04",
+      "source": "openwhistle",
+      "ok": true,
+      "message": "5 whistle + 2 non-whistle clips"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Target SNR (dB),Noise sigma,Measured SNR after noise (dB)
+20,0.043,19.97
+10,0.1361,9.97
+5,0.242,4.97
+0,0.4303,-0.03
+-5,0.7652,-5.03

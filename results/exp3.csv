@@ -1,0 +1,6 @@
+Stage,SNR (dB),Change vs noisy (dB)
+Noisy,4.97,0.0
+Kalman,6.18,1.21
+LMS (adaptive),8.3,3.33
+Wiener,7.26,2.28
+Butterworth (final),7.28,2.31

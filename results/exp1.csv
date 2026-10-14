@@ -1,0 +1,2 @@
+Source,Samples,fs (Hz),Duration (s),RMS,"Baseline SNR estimate (dB, heuristic)"
+SYNTHETIC whistle-like chirp (no dataset clip found in data/samples/),16384,48000,0.341,0.4303,15.69

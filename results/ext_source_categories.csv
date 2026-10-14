@@ -1,0 +1,7 @@
+data_mode,category,fs_hz,input_snr_db,output_snr_db,snr_improvement_db,baseline_prediction,top_score
+SYNTHETIC,Biological,48000,4.97,7.75,2.77,Biological sound,0.95
+SYNTHETIC,Vessel,16000,4.97,7.52,2.55,Vessel-related noise,0.82
+SYNTHETIC,Ambient,16000,4.97,6.05,1.08,Unknown or mixed sound,0.94
+SYNTHETIC,Impulsive,4000,4.97,0.14,-4.84,Impulsive or transient event,0.74
+SYNTHETIC,Communication,48000,4.97,5.85,0.88,Underwater communication signal,1.0
+SYNTHETIC,Mixed,48000,4.97,12.82,7.85,Biological sound,0.96

@@ -1,0 +1,7 @@
+Noise level (dB),Relay/gateway denoising,Mean SNR at gateway (dB),Std (dB),Trials
+112,OFF,8.27,0.0,3
+112,ON,9.99,0.02,3
+118,OFF,1.82,0.01,3
+118,ON,6.06,0.04,3
+122,OFF,-2.98,0.02,3
+122,ON,2.74,0.09,3

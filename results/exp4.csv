@@ -1,0 +1,37 @@
+Noise level (dB),Source,Scheme,Hops,PDR,Min link SNR (dB),Mean delay (s)
+105,EXPLORER-01,Single-hop (range-limited),0,0.0,,
+105,EXPLORER-01,Single-hop (range limit ignored),1,1.0,14.7,1.244
+105,EXPLORER-01,Multi-hop,3,1.0,18.0,1.958
+105,EXPLORER-02,Single-hop (range-limited),0,0.0,,
+105,EXPLORER-02,Single-hop (range limit ignored),1,1.0,14.6,1.247
+105,EXPLORER-02,Multi-hop,3,1.0,19.2,1.696
+105,EXPLORER-03,Single-hop (range-limited),0,0.0,,
+105,EXPLORER-03,Single-hop (range limit ignored),1,1.0,14.7,1.241
+105,EXPLORER-03,Multi-hop,3,1.0,19.2,1.692
+112,EXPLORER-01,Single-hop (range-limited),0,0.0,,
+112,EXPLORER-01,Single-hop (range limit ignored),1,0.9285,7.7,1.244
+112,EXPLORER-01,Multi-hop,3,1.0,11.0,1.958
+112,EXPLORER-02,Single-hop (range-limited),0,0.0,,
+112,EXPLORER-02,Single-hop (range limit ignored),1,0.9175,7.6,1.247
+112,EXPLORER-02,Multi-hop,3,1.0,12.2,1.696
+112,EXPLORER-03,Single-hop (range-limited),0,0.0,,
+112,EXPLORER-03,Single-hop (range limit ignored),1,0.9265,7.7,1.241
+112,EXPLORER-03,Multi-hop,3,1.0,12.2,1.692
+118,EXPLORER-01,Single-hop (range-limited),0,0.0,,
+118,EXPLORER-01,Single-hop (range limit ignored),1,0.0,1.7,1.244
+118,EXPLORER-01,Multi-hop,3,0.129,5.0,1.958
+118,EXPLORER-02,Single-hop (range-limited),0,0.0,,
+118,EXPLORER-02,Single-hop (range limit ignored),1,0.0,1.6,1.247
+118,EXPLORER-02,Multi-hop,3,0.593,6.2,1.696
+118,EXPLORER-03,Single-hop (range-limited),0,0.0,,
+118,EXPLORER-03,Single-hop (range limit ignored),1,0.0,1.7,1.241
+118,EXPLORER-03,Multi-hop,3,0.596,6.2,1.692
+122,EXPLORER-01,Single-hop (range-limited),0,0.0,,
+122,EXPLORER-01,Single-hop (range limit ignored),1,0.0,-2.3,1.244
+122,EXPLORER-01,Multi-hop,3,0.0,1.0,1.958
+122,EXPLORER-02,Single-hop (range-limited),0,0.0,,
+122,EXPLORER-02,Single-hop (range limit ignored),1,0.0,-2.4,1.247
+122,EXPLORER-02,Multi-hop,3,0.0,2.2,1.696
+122,EXPLORER-03,Single-hop (range-limited),0,0.0,,
+122,EXPLORER-03,Single-hop (range limit ignored),1,0.0,-2.3,1.241
+122,EXPLORER-03,Multi-hop,3,0.0,2.2,1.692

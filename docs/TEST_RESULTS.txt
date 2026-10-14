@@ -1,0 +1,73 @@
+Run in delivery environment (Python Python 3.12.3, no streamlit/plotly installed, no internet)
+test_ber_matches_theory (test_core.Core.test_ber_matches_theory) ... ok
+test_channel_monotonic (test_core.Core.test_channel_monotonic) ... ok
+test_pipeline_lengths_and_low_snr_gain (test_core.Core.test_pipeline_lengths_and_low_snr_gain) ... ok
+test_route_chain_and_failover (test_core.Core.test_route_chain_and_failover) ... ok
+test_snr_identity_and_noise (test_core.Core.test_snr_identity_and_noise) ... ok
+test_transmit_delivers (test_core.Core.test_transmit_delivers) ... ok
+test_bad_inputs_raise_audioerror (test_new.AudioLoading.test_bad_inputs_raise_audioerror) ... ok
+test_formats_roundtrip (test_new.AudioLoading.test_formats_roundtrip) ... ok
+test_recording_without_device_is_a_clean_error (test_new.AudioLoading.test_recording_without_device_is_a_clean_error) ... ok
+test_segment_and_playback (test_new.AudioLoading.test_segment_and_playback) ... ok
+test_silent_clip_flagged (test_new.AudioLoading.test_silent_clip_flagged) ... ok
+test_stereo_info (test_new.AudioLoading.test_stereo_info) ... ok
+test_arq_retransmits (test_new.ChannelAndLink.test_arq_retransmits) ... ok
+test_attenuation_and_absorption_scale (test_new.ChannelAndLink.test_attenuation_and_absorption_scale) ... ok
+test_ber_matches_theory_awgn (test_new.ChannelAndLink.test_ber_matches_theory_awgn) ... ok
+test_doppler_degrades_nontracking_receiver (test_new.ChannelAndLink.test_doppler_degrades_nontracking_receiver) ... ok
+test_failed_sync_is_reported_not_success (test_new.ChannelAndLink.test_failed_sync_is_reported_not_success) ... ok
+test_interference_lowers_pdr (test_new.ChannelAndLink.test_interference_lowers_pdr) ... ok
+test_multipath_image_geometry_and_degradation (test_new.ChannelAndLink.test_multipath_image_geometry_and_degradation) ... ok
+test_noise_synthesis_matches_requested_psd (test_new.ChannelAndLink.test_noise_synthesis_matches_requested_psd) ... ok
+test_noiseless_modem_loopback_is_perfect (test_new.ChannelAndLink.test_noiseless_modem_loopback_is_perfect) ... ok
+test_phase_tracking_handles_small_doppler_only_with_tracking (test_new.ChannelAndLink.test_phase_tracking_handles_small_doppler_only_with_tracking) ... ok
+test_wenz_monotone_in_wind (test_new.ChannelAndLink.test_wenz_monotone_in_wind) ... ok
+test_baseline_output_structure_and_labelled_mode (test_new.Classification.test_baseline_output_structure_and_labelled_mode) ... ok
+test_baseline_responds_to_input (test_new.Classification.test_baseline_responds_to_input)
+Not hard-coded: different inputs give different top categories. ... ok
+test_grouped_split_has_no_leakage (test_new.Classification.test_grouped_split_has_no_leakage) ... ok
+test_predict_without_model_is_clean_error (test_new.Classification.test_predict_without_model_is_clean_error) ... ok
+test_synthetic_sanity_consistency (test_new.Classification.test_synthetic_sanity_consistency)
+INTERNAL CONSISTENCY on synthetic generators only (NOT accuracy on ocean data). ... ok
+test_trained_requires_enough_recordings (test_new.Classification.test_trained_requires_enough_recordings) ... ok
+test_offline_and_missing_behaviour (test_new.Datasets.test_offline_and_missing_behaviour) ... ok
+test_openwhistle_failure_is_reported_not_substituted (test_new.Datasets.test_openwhistle_failure_is_reported_not_substituted) ... ok
+test_register_and_status (test_new.Datasets.test_register_and_status) ... ok
+test_noise_features_and_reference_snr (test_new.Features.test_noise_features_and_reference_snr) ... ok
+test_pure_tone_features (test_new.Features.test_pure_tone_features) ... ok
+test_too_short (test_new.Features.test_too_short) ... ok
+test_crc_known_value (test_new.Framing.test_crc_known_value) ... ok
+test_frame_roundtrip_and_corruption (test_new.Framing.test_frame_roundtrip_and_corruption) ... ok
+test_data_refused_before_connection_and_ack_flow (test_new.Handshake.test_data_refused_before_connection_and_ack_flow) ... ok
+test_data_retransmission_and_link_timeout (test_new.Handshake.test_data_retransmission_and_link_timeout) ... ok
+test_disconnect_and_node_failure_detection (test_new.Handshake.test_disconnect_and_node_failure_detection) ... ok
+test_environment_integration_and_unestablished_packets (test_new.Handshake.test_environment_integration_and_unestablished_packets) ... ok
+test_fail_then_manual_retry (test_new.Handshake.test_fail_then_manual_retry) ... ok
+test_happy_path_sequence_and_timestamps (test_new.Handshake.test_happy_path_sequence_and_timestamps) ... ok
+test_out_of_range_fails_and_does_not_report_success (test_new.Handshake.test_out_of_range_fails_and_does_not_report_success) ... ok
+test_poor_link_quality_rejected (test_new.Handshake.test_poor_link_quality_rejected) ... ok
+test_retry_inside_handshake_then_success (test_new.Handshake.test_retry_inside_handshake_then_success) ... ok
+test_each_filter_preserves_length_and_is_finite (test_new.NoiseAndFilters.test_each_filter_preserves_length_and_is_finite) ... ok
+test_invalid_filter_args (test_new.NoiseAndFilters.test_invalid_filter_args) ... ok
+test_noise_hits_target_snr (test_new.NoiseAndFilters.test_noise_hits_target_snr) ... ok
+test_snr_improvement_formula_and_no_blanket_claim (test_new.NoiseAndFilters.test_snr_improvement_formula_and_no_blanket_claim) ... ok
+test_all_figures_build (test_new.PlotlyFigures.test_all_figures_build) ... skipped 'plotly not installed in this environment'
+test_all_relays_down_means_unreachable_not_fake_reroute (test_new.RoutingTests.test_all_relays_down_means_unreachable_not_fake_reroute) ... ok
+test_etx_formula_and_dijkstra_optimality (test_new.RoutingTests.test_etx_formula_and_dijkstra_optimality) ... ok
+test_no_negative_costs (test_new.RoutingTests.test_no_negative_costs) ... ok
+test_noise_changes_etx_and_cost (test_new.RoutingTests.test_noise_changes_etx_and_cost) ... ok
+test_relay_failure_alt_route_and_unreachable (test_new.RoutingTests.test_relay_failure_alt_route_and_unreachable) ... ok
+test_relay_moves_out_of_range (test_new.RoutingTests.test_relay_moves_out_of_range) ... ok
+test_routing_table_updates_logged (test_new.RoutingTests.test_routing_table_updates_logged) ... ok
+test_auv_waypoint_motion (test_new.SceneAndRun.test_auv_waypoint_motion) ... ok
+test_forced_loss_marker_appears_at_failing_link (test_new.SceneAndRun.test_forced_loss_marker_appears_at_failing_link) ... ok
+test_run_frames_reflect_failures_and_losses (test_new.SceneAndRun.test_run_frames_reflect_failures_and_losses) ... ok
+test_ships_raise_noise_and_move (test_new.SceneAndRun.test_ships_raise_noise_and_move) ... ok
+test_all_pages_render_and_buttons_work (test_ui_smoke.FakeSmoke.test_all_pages_render_and_buttons_work) ... ok
+test_error_paths_do_not_crash (test_ui_smoke.FakeSmoke.test_error_paths_do_not_crash) ... ok
+test_apptest_real (test_ui_smoke.RealApp.test_apptest_real) ... skipped 'streamlit/plotly not installed'
+
+----------------------------------------------------------------------
+Ran 65 tests in 45.982s
+
+OK (skipped=2)

@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "id": "noaa_fisheries_sounds",
+      "name": "NOAA Fisheries - Sounds in the Ocean: Environmental and Anthropogenic",
+      "page_url": "https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-environmental-and-anthropogenic",
+      "fetch": "manual",
+      "categories": [
+        "vessel",
+        "ambient",
+        "impulsive",
+        "biological"
+      ],
+      "licence": "Not verified automatically. Read the usage statement on the source page before redistributing.",
+      "attribution": "NOAA Fisheries (cite the specific page and file you use).",
+      "howto": "Open the page, download the example WAV/MP3-to-WAV files you want, then register each file in the app (Acoustic Data Explorer -> Register local file) or with scripts/register_local_file.py."
+    },
+    {
+      "id": "noaa_ncei_pad",
+      "name": "NOAA NCEI Passive Acoustic Data Archive",
+      "page_url": "https://www.ncei.noaa.gov/products/passive-acoustic-data",
+      "fetch": "manual",
+      "categories": [
+        "ambient",
+        "vessel",
+        "biological",
+        "impulsive"
+      ],
+      "licence": "Not verified automatically. Check dataset-level metadata/licence at NCEI.",
+      "attribution": "NOAA National Centers for Environmental Information, Passive Acoustic Data Archive.",
+      "howto": "Archive files are large. Browse https://www.ncei.noaa.gov/maps/passive-acoustic-data/ , download ONE short clip, and register it."
+    },
+    {
+      "id": "noaa_pad_viewer",
+      "name": "NOAA Passive Acoustic Data Viewer",
+      "page_url": "https://www.ncei.noaa.gov/maps/passive-acoustic-data/",
+      "fetch": "manual",
+      "categories": [],
+      "licence": "Viewer only; see archive entry.",
+      "attribution": "NOAA NCEI.",
+      "howto": "Use to locate datasets; not a direct file source."
+    },
+    {
+      "id": "openwhistle",
+      "name": "OpenWhistle (bottlenose dolphin whistles)",
+      "page_url": "https://sumbre-lab.github.io/openwhistle/",
+      "fetch": "hf_stream",
+      "hf_repo": "dolphinteam/OpenWhistle-CNN",
+      "categories": [
+        "biological"
+      ],
+      "licence": "Not verified automatically. Check the Hugging Face dataset card.",
+      "attribution": "OpenWhistle project (Sumbre lab); Hugging Face dolphinteam/OpenWhistle-CNN.",
+      "howto": "Needs internet and the optional 'datasets' package: python scripts/download_openwhistle_samples.py"
+    }
+  ]
+}

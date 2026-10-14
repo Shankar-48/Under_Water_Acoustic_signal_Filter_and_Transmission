@@ -1,0 +1,43 @@
+data_mode,condition,distance_m,packets,pdr,per,ber
+SIMULATED waveform channel,"Baseline: spreading+absorption, white noise",500,40,1.0,0.0,0.0
+SIMULATED waveform channel,"Baseline: spreading+absorption, white noise",1500,40,1.0,0.0,0.0
+SIMULATED waveform channel,"Baseline: spreading+absorption, white noise",3000,40,1.0,0.0,0.0
+SIMULATED waveform channel,"Baseline: spreading+absorption, white noise",5000,40,0.875,0.125,0.0008152173913043478
+SIMULATED waveform channel,"Baseline: spreading+absorption, white noise",6500,40,0.0,1.0,0.033967391304347824
+SIMULATED waveform channel,"Baseline: spreading+absorption, white noise",8000,40,0.0,1.0,0.23070652173913042
+SIMULATED waveform channel,Wenz ambient noise (wind 5 m/s),500,40,1.0,0.0,0.0
+SIMULATED waveform channel,Wenz ambient noise (wind 5 m/s),1500,40,1.0,0.0,0.0
+SIMULATED waveform channel,Wenz ambient noise (wind 5 m/s),3000,40,1.0,0.0,0.0
+SIMULATED waveform channel,Wenz ambient noise (wind 5 m/s),5000,40,1.0,0.0,0.0
+SIMULATED waveform channel,Wenz ambient noise (wind 5 m/s),6500,40,1.0,0.0,0.0
+SIMULATED waveform channel,Wenz ambient noise (wind 5 m/s),8000,40,1.0,0.0,0.0
+SIMULATED waveform channel,Wenz + heavy shipping,500,40,1.0,0.0,0.0
+SIMULATED waveform channel,Wenz + heavy shipping,1500,40,1.0,0.0,0.0
+SIMULATED waveform channel,Wenz + heavy shipping,3000,40,1.0,0.0,0.0
+SIMULATED waveform channel,Wenz + heavy shipping,5000,40,1.0,0.0,0.0
+SIMULATED waveform channel,Wenz + heavy shipping,6500,40,1.0,0.0,0.0
+SIMULATED waveform channel,Wenz + heavy shipping,8000,40,1.0,0.0,0.0
+SIMULATED waveform channel,Baseline + multipath (200 m water),500,40,0.675,0.32499999999999996,0.002717391304347826
+SIMULATED waveform channel,Baseline + multipath (200 m water),1500,40,0.625,0.375,0.0375
+SIMULATED waveform channel,Baseline + multipath (200 m water),3000,40,0.0,1.0,0.2105978260869565
+SIMULATED waveform channel,Baseline + multipath (200 m water),5000,40,0.0,1.0,0.313179347826087
+SIMULATED waveform channel,Baseline + multipath (200 m water),6500,40,0.0,1.0,0.13233695652173913
+SIMULATED waveform channel,Baseline + multipath (200 m water),8000,40,0.0,1.0,0.5167119565217392
+SIMULATED waveform channel,Baseline + Doppler (0.3 m/s),500,40,1.0,0.0,0.0
+SIMULATED waveform channel,Baseline + Doppler (0.3 m/s),1500,40,1.0,0.0,0.0
+SIMULATED waveform channel,Baseline + Doppler (0.3 m/s),3000,40,1.0,0.0,0.0
+SIMULATED waveform channel,Baseline + Doppler (0.3 m/s),5000,40,0.625,0.375,0.0024456521739130437
+SIMULATED waveform channel,Baseline + Doppler (0.3 m/s),6500,40,0.0,1.0,0.03763586956521739
+SIMULATED waveform channel,Baseline + Doppler (0.3 m/s),8000,40,0.0,1.0,0.25869565217391305
+SIMULATED waveform channel,Baseline + Doppler (3 m/s),500,40,0.0,1.0,0.6377717391304348
+SIMULATED waveform channel,Baseline + Doppler (3 m/s),1500,40,0.0,1.0,0.6358695652173914
+SIMULATED waveform channel,Baseline + Doppler (3 m/s),3000,40,0.0,1.0,0.6589673913043478
+SIMULATED waveform channel,Baseline + Doppler (3 m/s),5000,40,0.0,1.0,0.768070652173913
+SIMULATED waveform channel,Baseline + Doppler (3 m/s),6500,40,0.0,1.0,0.9290760869565218
+SIMULATED waveform channel,Baseline + Doppler (3 m/s),8000,40,0.0,1.0,0.9764945652173913
+SIMULATED waveform channel,Baseline + interference,500,40,1.0,0.0,0.0
+SIMULATED waveform channel,Baseline + interference,1500,40,1.0,0.0,0.0
+SIMULATED waveform channel,Baseline + interference,3000,40,1.0,0.0,0.0
+SIMULATED waveform channel,Baseline + interference,5000,40,0.125,0.875,0.08586956521739131
+SIMULATED waveform channel,Baseline + interference,6500,40,0.0,1.0,0.4482336956521739
+SIMULATED waveform channel,Baseline + interference,8000,40,0.0,1.0,0.6216032608695652

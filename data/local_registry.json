@@ -1,0 +1,95 @@
+{
+  "files": [
+    {
+      "path": "data\\samples\\openwhistle\\noise_00.wav",
+      "label": "openwhistle_non_whistle",
+      "source_url": "https://sumbre-lab.github.io/openwhistle/",
+      "source_id": "openwhistle",
+      "attribution": "OpenWhistle project (Sumbre lab); Hugging Face dolphinteam/OpenWhistle-CNN.",
+      "licence": "Not verified automatically. Check the Hugging Face dataset card.",
+      "recording_id": "openwhistle_noise_00",
+      "format": "WAV",
+      "sampling_rate": 96000,
+      "duration_s": 0.4,
+      "sha256": "5e00707f1221d98f1d9b4bc3d228d7568b0fecf09e28111f2eb0697eaf7d9d1b"
+    },
+    {
+      "path": "data\\samples\\openwhistle\\noise_01.wav",
+      "label": "openwhistle_non_whistle",
+      "source_url": "https://sumbre-lab.github.io/openwhistle/",
+      "source_id": "openwhistle",
+      "attribution": "OpenWhistle project (Sumbre lab); Hugging Face dolphinteam/OpenWhistle-CNN.",
+      "licence": "Not verified automatically. Check the Hugging Face dataset card.",
+      "recording_id": "openwhistle_noise_01",
+      "format": "WAV",
+      "sampling_rate": 96000,
+      "duration_s": 0.4,
+      "sha256": "4549218ac1d207998ac08b80a5ecf43ed8e8197855a753ba41432edd32c78ed5"
+    },
+    {
+      "path": "data\\samples\\openwhistle\\whistle_00.wav",
+      "label": "biological_dolphin_whistle",
+      "source_url": "https://sumbre-lab.github.io/openwhistle/",
+      "source_id": "openwhistle",
+      "attribution": "OpenWhistle project (Sumbre lab); Hugging Face dolphinteam/OpenWhistle-CNN.",
+      "licence": "Not verified automatically. Check the Hugging Face dataset card.",
+      "recording_id": "openwhistle_whistle_00",
+      "format": "WAV",
+      "sampling_rate": 96000,
+      "duration_s": 0.4,
+      "sha256": "a3b025d6a3fb6023f727bd825d8542109aed16c0013abc7a259bbaeb1bf1bbca"
+    },
+    {
+      "path": "data\\samples\\openwhistle\\whistle_01.wav",
+      "label": "biological_dolphin_whistle",
+      "source_url": "https://sumbre-lab.github.io/openwhistle/",
+      "source_id": "openwhistle",
+      "attribution": "OpenWhistle project (Sumbre lab); Hugging Face dolphinteam/OpenWhistle-CNN.",
+      "licence": "Not verified automatically. Check the Hugging Face dataset card.",
+      "recording_id": "openwhistle_whistle_01",
+      "format": "WAV",
+      "sampling_rate": 96000,
+      "duration_s": 0.4,
+      "sha256": "f722b6685bbf77b297e5b085387bace9bb560eb834075b26385ef26f270096fd"
+    },
+    {
+      "path": "data\\samples\\openwhistle\\whistle_02.wav",
+      "label": "biological_dolphin_whistle",
+      "source_url": "https://sumbre-lab.github.io/openwhistle/",
+      "source_id": "openwhistle",
+      "attribution": "OpenWhistle project (Sumbre lab); Hugging Face dolphinteam/OpenWhistle-CNN.",
+      "licence": "Not verified automatically. Check the Hugging Face dataset card.",
+      "recording_id": "openwhistle_whistle_02",
+      "format": "WAV",
+      "sampling_rate": 96000,
+      "duration_s": 0.4,
+      "sha256": "f2ebf93f63e19dc45e725b4a2cf77eaffd0a926b1aa783c0e6e23bbb87bab8e1"
+    },
+    {
+      "path": "data\\samples\\openwhistle\\whistle_03.wav",
+      "label": "biological_dolphin_whistle",
+      "source_url": "https://sumbre-lab.github.io/openwhistle/",
+      "source_id": "openwhistle",
+      "attribution": "OpenWhistle project (Sumbre lab); Hugging Face dolphinteam/OpenWhistle-CNN.",
+      "licence": "Not verified automatically. Check the Hugging Face dataset card.",
+      "recording_id": "openwhistle_whistle_03",
+      "format": "WAV",
+      "sampling_rate": 96000,
+      "duration_s": 0.4,
+      "sha256": "415cfbeceb892035dd4e3e9ad0fa291a47005d6568269dbd50bc3fbe10b3f6ea"
+    },
+    {
+      "path": "data\\samples\\openwhistle\\whistle_04.wav",
+      "label": "biological_dolphin_whistle",
+      "source_url": "https://sumbre-lab.github.io/openwhistle/",
+      "source_id": "openwhistle",
+      "attribution": "OpenWhistle project (Sumbre lab); Hugging Face dolphinteam/OpenWhistle-CNN.",
+      "licence": "Not verified automatically. Check the Hugging Face dataset card.",
+      "recording_id": "openwhistle_whistle_04",
+      "format": "WAV",
+      "sampling_rate": 96000,
+      "duration_s": 0.4,
+      "sha256": "15caaf66fd26ca4c5fc84961b2e9fa3d2ddd98406468666900b60c5720c1297e"
+    }
+  ]
+}
